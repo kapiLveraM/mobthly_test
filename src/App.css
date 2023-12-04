@@ -1,38 +1,176 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Chonburi&family=Josefin+Sans:wght@500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html,
+body {
+  font-family: "Rubik", sans-serif !important;
+  overflow-x: hidden !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+/*--------------------------------- ROOT-DEFINE-VALUES --------------------------------- */
+:root {
+  --color-sky-blue: #0076be;
+  --color-light: #eaf7fb;
+  --font-xs: 16px;
+  --font-base: 18px;
+  --font-sm: 24px;
+  --font-md: 30px;
+  --font-lg: 36px;
+  --font-xl: 48px;
+}
+
+/*--------------------- DEFINE-ALL = ROOT-VALUE ------------------------------ */
+
+
+.color_sky_blue {
+  color: var(--color-sky-blue) !important;
+}
+.text_gradient {
+  background-image: -o-linear-gradient(316.02deg, #0076be 11.95%, #95d8eb 100%);
+  background-image: linear-gradient(133.98deg, #0076be 11.95%, #95d8eb 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+/*---------------------------- DEFINE-ALL = FONT-SIZES ---------------------------- */
+.font-xs {
+  font-size: var(--font-xs) !important;
+}
+.font-sm {
+  font-size: var(--font-sm) !important;
+}
+.font-base {
+  font-size: var(--font-base) !important;
+}
+.font-md {
+  font-size: var(--font-md) !important;
+}
+.font-lg {
+  font-size: var(--font-lg) !important;
+}
+
+.font-xl {
+  font-size: var(--font-xl) !important;
+}
+
+.font-2xl {
+  font-size: var(--font-2xl) !important;
+}
+
+/*---------------------------- DEFINE-ALL = FONT-WEIGHT ---------------------------- */
+
+.fw_medium {
+  font-weight: 500 !important;
+}
+
+
+/*------------------------ DEFINE-ALL = @media----FONT SIZE-SET--------------------  */
+
+@media (max-width: 1199.98px) {
+  :root {
+    --font-xs: 16px;
+    --font-sm: 20px;
+    --font-md: 22px;
+    --font-lg: 26px;
+    --font-xl: 44px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media (max-width: 991.98px) {
+  :root {
+    --font-md: 22px;
+    --font-lg: 26px;
+    --font-xl: 36px;
+    --font-2xl: 42px;
+  }
 }
 
-.App-link {
-  color: #61dafb;
+@media (max-width: 767.98px) {
+  :root {
+    --font-xs: 14px;
+    --font-sm: 18px;
+    --font-md: 20px;
+    --font-lg: 24px;
+    --font-xl: 38px;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 575.98px) {
+  :root {
+    --font-xs: 14px;
+    --font-sm: 16px;
+    --font-md: 18px;
+    --font-lg: 22px;
+    --font-xl: 34px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+.color_black{
+  color: #000 !important;
+}
+.hover_line::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 0;
+  color: #000 !important;
+  background-color: #000;
+  bottom: -1px;
+  left: 50%;
+  -webkit-transition: 0.4s ease-in-out;
+  -o-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+.hover_line:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+@media (max-width: 767.98px) {
+  .overflow-y-hidden {
+    overflow: hidden !important;
+    height: 100vh !important;
   }
+  
+  .nav_show {
+    position: fixed;
+    height: 0vh;
+    background-color: #D9ECF6;
+    -webkit-transition: all 0.6s linear;
+    -o-transition: all 0.6s linear;
+    transition: all 0.6s linear;
+    left: -100%;
+    height: 100vh;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    z-index: 10;
+    top: 0;
+  }
+  .nav_show.show {
+    left: 0%;
+  }
+  .nav_property {
+    padding: 7px 20px 6px 16px;
+  }
+
 }
