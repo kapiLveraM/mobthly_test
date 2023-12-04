@@ -49,3 +49,64 @@ export const CompanyIcon = () => {
     </svg>
   );
 };
+
+export const SearchIcon = () => {
+  return (
+ <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.7">
+<path d="M8.01156 14.096C11.5094 14.096 14.3449 11.2605 14.3449 7.76269C14.3449 4.26488 11.5094 1.42935 8.01156 1.42935C4.51375 1.42935 1.67822 4.26488 1.67822 7.76269C1.67822 11.2605 4.51375 14.096 8.01156 14.096Z" stroke="#00A2FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M15.0116 14.7627L13.6782 13.4293" stroke="#00A2FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>
+
+  );
+};
+export const BestNftIcon = () => {
+  return (
+    <svg
+      width="14"
+      height="19"
+      viewBox="0 0 14 19"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g clip-path="url(#clip0_304_178)">
+        <path
+          d="M6.74809 1.09875L6.61096 1.50067V13.1631L6.74809 13.2812L13.0275 10.0812L6.74809 1.09875Z"
+          fill="#343434"
+        />
+        <path
+          d="M6.74814 1.09875L0.46875 10.0812L6.74814 13.2812V7.6206V1.09875Z"
+          fill="#8C8C8C"
+        />
+        <path
+          d="M6.74807 14.3061L6.67078 14.3874V18.5418L6.74807 18.7365L13.0312 11.1078L6.74807 14.3061Z"
+          fill="#3C3C3B"
+        />
+        <path
+          d="M6.74814 18.7364V14.3062L0.46875 11.1078L6.74814 18.7364Z"
+          fill="#8C8C8C"
+        />
+        <path
+          d="M6.74805 13.2811L13.0274 10.0812L6.74805 7.62061V13.2811Z"
+          fill="#141414"
+        />
+        <path
+          d="M0.46875 10.0812L6.74806 13.2811V7.62061L0.46875 10.0812Z"
+          fill="#393939"
+        />
+      </g>
+      <defs>
+        <clipPath id="clip0_304_178">
+          <rect
+            width="13"
+            height="18"
+            fill="white"
+            transform="translate(0.304199 0.872314)"
+          />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+};
+

@@ -1,73 +1,77 @@
-import iphone from "../../assets/img/svg/iPhones.svg";
-import grading from "../../assets/img/svg/Grading.svg";
-import warranty from "../../assets/img/svg/Warranty.svg";
-import dataErasures from "../../assets/img/svg/DataErasures.svg"
-import testing from "../../assets/img/svg/Testing.svg"
-import productionProgram from "../../assets/img/svg/Production Program.svg"
+import GENESIS from "../../assets/images/png/GENESIS.png";
+import CryptoPunks from "../../assets/images/png/CryptoPunks.png";
+import TakashiMurakami from "../../assets/images/png/Takashi Murakami.png";
+import anticipated from "../../assets/images/png/Anticipated.png";
+import dape from "../../assets/images/png/DAPE.png";
+import rainBoyClub from "../../assets/images/png/RainBoy.png";
 export const ProductData = [
   {
     id: 1,
-    cardImg: iphone,
-    heading: " iPhones",
-    heading_2: "Top of the Line Devices Without the Premium Prices",
-    para: "We house quality devices at ultra-competitive prices. From the latest models to the oldest, in numerous colors and storage capacities, you will find everything you need. ",
+    cardImg: GENESIS,
+    heading: "Antonym: GENESIS",
+    Items1: "Items",
+    value1: "4.3k",
+    Items2: "Owners",
+    value2: "3.6k",
+    Items3: "Floor price",
+    value3: "1",
+    Items4: "Volume trade",
+    value4: "1.6k",
+    Rating: "Rating 99%",
   },
   {
     id: 2,
-    cardImg: grading,
-    heading: " Grading",
-    heading_2: "Products That Live Up To All Expectations",
-    para: "We’ll free you from the fear of buying poor-quality devices from the secondary market. Our products are checked through a 60-point inspection, identifying cosmetic and functional problems. We have a strict grading system including A, AB and fallout grades.",
+    cardImg: CryptoPunks,
+    heading: "CryptoPunks",
+    Items1: "Items",
+    value1: "10.0k",
+    Items2: "Owners",
+    value2: "3.4k",
+    Items3: "Floor price",
+    value3: "--",
+    Items4: "Volume trade",
+    value4: "851.3k",
+    Rating: "Rating 95%",
   },
   {
     id: 3,
-    cardImg: warranty,
-    heading: " Warranty",
-    heading_2: "Get Your Next Phones With Serenity & Confidence",
-    para: "If a faulty device slips through our quality control, we’ll make it right within short notice. We back up our products with a hassle-free 45-day warranty that includes any device defect. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+    cardImg: TakashiMurakami,
+    heading: " Clone X - X Takashi Murakami",
+    Items1: "Items",
+    value1: "18.9k",
+    Items2: "Owners",
+    value2: "8.4k",
+    Items3: "Floor price",
+    value3: "12.5",
+    Items4: "Volume trade",
+    value4: "133.7k",
+    Rating: "Rating 91%",
   },
 ];
+
 export const ServicesData = [
   {
     id: 1,
-    cardImg: dataErasures,
-    heading: "Data Erasures",
-    heading_2: "Secure Deletion Of Data On All Devices",
-    para: "Seeking secure, permanent data erasure? We’re certified to wipe any data-containing devices, using methods that comply with the highest regulatory standards. We’ll save you from the deletion headache. ",
+    cardImg: anticipated,
+    Rating: "Grade A",
+
+    heading: "Anticipated nft of 2022 is “Destroyer's-Of-Fiat”",
+    para: "Our Mission Is For The Rise Of Crypto & The Demise Of Fiat. Supporting Our Page Means You're Officially A Member Of Crypto Takeover",
   },
   {
     id: 2,
-    cardImg: testing,
-    heading: " Testing",
-    heading_2: "Quality Always Comes First",
-    para: "We’ve invested in a highly-detailed, 60-point testing regime for each device in our care, ensuring devices are in working order.  You can trust us to deliver high quality stock.",
+    cardImg: dape,
+    heading: " DAPE",
+    Rating: "Grade A",
+
+    para: "Once upon a time, there lived 3,333 apes in a forest filled with rainbows, clouds and dreams. Years in the castle, with magic and splashes of colors, they formed a strong bond and magically transformed into Rainbow DAPES",
   },
   {
     id: 3,
-    cardImg: productionProgram,
-    heading: " Production Program",
-    heading_2: "Advance Inventory Access",
-    para: "Looking for a specific product that’s not available yet in our inventory? Don’t want to miss out on your favorite model? Our Production Program has got you covered. Get access to the products you want when you want them.",
-  },
-  {
-    id: 2,
-    cardImg: testing,
-    heading: " Testing",
-    heading_2: "Quality Always Comes First",
-    para: "We’ve invested in a highly-detailed, 60-point testing regime for each device in our care, ensuring devices are in working order.  You can trust us to deliver high quality stock.",
-  },
-  {
-    id: 3,
-    cardImg: productionProgram,
-    heading: " Production Program",
-    heading_2: "Advance Inventory Access",
-    para: "Looking for a specific product that’s not available yet in our inventory? Don’t want to miss out on your favorite model? Our Production Program has got you covered. Get access to the products you want when you want them.",
-  },
-  {
-    id: 1,
-    cardImg: dataErasures,
-    heading: "Data Erasures",
-    heading_2: "Secure Deletion Of Data On All Devices",
-    para: "Seeking secure, permanent data erasure? We’re certified to wipe any data-containing devices, using methods that comply with the highest regulatory standards. We’ll save you from the deletion headache. ",
+    cardImg: rainBoyClub,
+    heading: " Rain Boy Club",
+    Rating: "Grade A",
+
+    para: "A unique collection of 3,999 3D Rain Boys in Metaverse, stored on the Ethereum network. These NFT artworks are carefully crafted by our designers and presented in movie-grade quality. Visit rainboyclub.com for more details.",
   },
 ];
